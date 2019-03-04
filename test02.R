@@ -1,9 +1,9 @@
 
 
-etf4<-read.csv("ETF4_2000_2018_d.csv")
+etf4<-read.csv("ETF4_2000-2018-d.csv")
 str(etf4)
 
 library(readr)
 
 etf4_csv<-read_csv("ETF4_2000_2018_d.csv",
-                          locale=locale(encoding = 'big5'))
+                  locale=locale(encoding = 'big5'))
